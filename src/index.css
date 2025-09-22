@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "ReadexBlod";
+  src: url("/fonts/Readex/ReadexPro-Bold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "ReadexMedium";
+  src: url("/fonts/Readex/ReadexPro-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Readex";
+  src: url("/fonts/Readex/ReadexPro-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+
