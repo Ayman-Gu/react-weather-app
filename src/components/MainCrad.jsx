@@ -26,45 +26,7 @@ export default function MainCrad() {
     const dispatch=useDispatch()
     const {list,loading} =useSelector((state)=>state.weatherReducer)
     
-    /*useEffect(()=>{
-       
-        let cancelAxios =null
-        axios.get('https://api.openweathermap.org/data/2.5/weather?lat=33.589886&lon=-7.603869&appid=2d087febeafdaa8781c61042494a7b7a',{
-            cancelToken:new axios.CancelToken((c)=>{
-                cancelAxios=c
-            })
-        })
-               
-                .then(function(response){
-                  const tempValue=response.data.main.temp
-                  const minValue=response.data.main.temp_min
-                  const maxValue=response.data.main.temp_max
-                  const descriptionValue=response.data.weather[0].description
-                  const cityValue=response.data.name
-
-                  const icon=response.data.weather[0].icon
-                  const weatherIcon=`https://openweathermap.org/img/wn/${icon}@2x.png`
-
-                  console.log(tempValue,minValue,maxValue,descriptionValue,cityValue)
-                  setData({
-                    temp:tempValue,
-                    min:minValue,
-                    max:maxValue,
-                    description:descriptionValue,
-                    city:cityValue,
-                    icon:weatherIcon
-                  })
-                    
-                    
-
-                  })
-                  .catch(function(error){
-                    console.log(error.message)
-                  })
-        return ()=> {
-            cancelAxios()
-        }
-    },[])*/
+    
     
     
     useEffect(() => {

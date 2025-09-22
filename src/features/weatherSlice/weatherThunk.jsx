@@ -7,7 +7,8 @@ export const fetchWeatherData=createAsyncThunk(
 
         await new Promise((resolve)=>{setTimeout(resolve,3000)})
         const response = await axios.get(
-          "https://api.openweathermap.org/data/2.5/weather?lat=33.589886&lon=-7.603869&appid=2d087febeafdaa8781c61042494a7b7a")
+          /*your open weather api here */
+        )
 
         
             const tempValue=response.data.main.temp
