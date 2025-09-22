@@ -1,12 +1,59 @@
-# React + Vite
+# React & Redux + vite + TailwindCss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather App 🌤️
 
-Currently, two official plugins are available:
+A responsive weather application built with **React**, **Redux**, **Axios**, and **TailwindCSS**, utilizing the **OpenWeather API** to fetch real-time weather data for any location.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Overview](#overview)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Installation](#installation)  
+- [API](#api)  
+
+---
+
+## Overview
+
+This project is a modern weather application where users can:
+
+- Search for a city to get current weather data.
+- View temperature, humidity, wind speed, and weather conditions.
+- Experience smooth UI/UX with responsive design using TailwindCSS.
+- Manage state efficiently with Redux for a scalable architecture.
+- Handle API requests asynchronously using Axios.  
+
+The app uses the **OpenWeather API** to retrieve up-to-date weather information globally.
+
+---
+
+## Features
+
+- **Real-Time Weather Data:** Temperature, humidity, wind speed, weather description.
+- **Loading State:** Displays a loading indicator while fetching data.
+- **State Management:** Redux handles the application state for better scalability.
+
+---
+
+## Technologies
+
+- **React** – Frontend library for building UI components.  
+- **Redux Toolkit** – For state management.  
+- **Axios** – To handle HTTP requests to the OpenWeather API.  
+- **TailwindCSS** – For modern, responsive styling.  
+- **OpenWeather API** – To fetch weather data.  
+
+---
+
+## Installation
+
+1. Clone the repository:  
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+npm install
+npm run dev 
+
